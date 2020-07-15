@@ -53,15 +53,25 @@ main {
     display: flex;
 }
 
-.about {
+.intro {
     width: 55%;
-    margin-left: 200px;
+    margin-left: 130px;
 }
 
-.about h1 {
+.intro h1 {
     padding-top: 20px;
     font-size: 46px;
 }
+
+.dot {
+    margin-top: 75px;
+    margin-right: 15px;
+    height: 50px;
+    width: 50px;
+    background-color: #967466;
+    border-radius: 50%;
+    display: inline-block;
+  }
 
 figure {
     display: flex;
@@ -83,13 +93,37 @@ img {
 }
 
 figcaption {
-    padding-top: 25px;
+    padding-top: 35px;
     margin-bottom: 50px;
-    font-size: 13px;
+    font-size: 14px;
+    font-style: italic;
 }
 
-p {
+.welcome p {
     width: 500px;
+}
+
+.about {
+    padding-left: 15px;
+    padding-bottom: 25px;
+}
+
+.about p {
+    padding-left: 50px;
+}
+
+.projects {
+    padding-left: 15px;
+    padding-bottom: 25px;
+}
+
+.contact {
+    padding-left: 15px;
+    padding-bottom: 25px;
+}
+
+.contact p {
+    padding-left: 50px;
 }
 
 footer {
