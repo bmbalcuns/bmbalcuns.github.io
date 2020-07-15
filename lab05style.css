@@ -17,7 +17,7 @@ body {
 }
 
 .top-of-page h2 {
-    padding-left: 75px;
+    padding-left: 185px;
     font-size: 20px;
 }
 
@@ -30,7 +30,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    margin-right: 25px;
+    margin-right: 100px;
 }
 
 .top-nav a {
@@ -48,32 +48,53 @@ body {
     color: rgb(196, 195, 195);
   }
 
+main {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+}
+
+.about {
+    width: 55%;
+    margin-left: 200px;
+}
+
+.about h1 {
+    padding-top: 20px;
+    font-size: 46px;
+}
+
 figure {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 45%;
     text-align: center;
 }
 
-/* .about {
-    display: flex;
-    flex-direction: column;
-} */
-
 figure, p {
     margin: 0px
-} 
-
-main {
-    background-color: rgb(230, 230, 230);
 }
 
 img {
-    height: auto;
+    height: 425px;
+    width: 245px;
     border-radius: 280px;
+    align-self: center;
+    margin-top: 50px;
+}
+
+figcaption {
+    padding-top: 25px;
+    margin-bottom: 50px;
+    font-size: 13px;
+}
+
+p {
+    width: 500px;
 }
 
 footer {
-    background-color: whitesmoke;
-    color: rgb(102, 101, 101)
+    background-color: #967466;
+    color: rgb(196, 195, 195);
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
