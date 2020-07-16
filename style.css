@@ -59,7 +59,7 @@ main {
 }
 
 .intro h1 {
-    padding-top: 20px;
+    padding-top: 60px;
     font-size: 46px;
 }
 
@@ -85,8 +85,8 @@ figure, p {
 }
 
 img {
-    height: 425px;
-    width: 245px;
+    height: 525px;
+    width: 315px;
     border-radius: 280px;
     align-self: center;
     margin-top: 50px;
@@ -105,7 +105,7 @@ figcaption {
 
 .about {
     padding-left: 15px;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 .about p {
@@ -114,16 +114,20 @@ figcaption {
 
 .projects {
     padding-left: 15px;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 .contact {
     padding-left: 15px;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 .contact p {
     padding-left: 50px;
+}
+
+.contact a {
+    color: rgb(102, 101, 101);
 }
 
 footer {
@@ -131,4 +135,5 @@ footer {
     color: rgb(196, 195, 195);
     padding-top: 15px;
     padding-bottom: 15px;
+    text-align: center;
 }
